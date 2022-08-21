@@ -1,5 +1,5 @@
 require("dotenv").config();
-const ownerID = process.env.ownerid; 
+const ownerID = 696852868774363136; 
 
 module.exports = {
     name:'botstatus',

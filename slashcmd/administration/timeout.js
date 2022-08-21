@@ -48,7 +48,7 @@ module.exports = {
         let args = interaction.options.data;
         let choice = args[1]?.value;
 
-        let reason = interaction.options.getString('reason') || "No Reason"
+        let reason = interaction.options.getString('reason') || "No timeout reason specified."
 
         let timeout = interaction.options.getString('time');
 

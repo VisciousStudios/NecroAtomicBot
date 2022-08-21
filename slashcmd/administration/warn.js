@@ -64,7 +64,7 @@ module.exports = {
 
     if (option === "add") {
       const member = interaction.options.getMember("user");
-      const reason = interaction.options.getString("reason") || "No reason"; //define
+      const reason = interaction.options.getString("reason") || "No reason defined."; //define
 
       if (
         member.roles.highest.position >=

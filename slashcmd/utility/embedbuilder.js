@@ -17,6 +17,13 @@ module.exports = {
       required:true
     },
     {
+      name: "logs",
+      description: "lol log it nerds",
+      type: 'STRING',
+      required:true
+
+    },
+    {
       name: "color",
       description: "Thats's a nice title! now what color do you want?",
       type: "STRING",
@@ -177,7 +184,7 @@ module.exports = {
         const timesm = interaction.options.getString("timestamp");
         const image = interaction.options.getString("image");
         const thumbnails = interaction.options.getString("thumbnails");
-    
+        const logs = interaction.options.getString("description");
         if (timesm === "yes") {
           await interaction.followUp({
             ephemeral: true,

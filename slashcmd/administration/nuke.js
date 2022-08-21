@@ -5,11 +5,7 @@ module.exports = {
   description: "Nukes a channel",
   permission: "ADMINISTRATOR",
 
-  /**
-   *
-   * @param {Client} client
-   * @param {CommandInteracion} interaction
-   */
+
 
   run: async (client, interaction) => {
     interaction.channel.clone().then((channel) => {

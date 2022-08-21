@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 require("dotenv").config();
-const ownerid = process.env.ownerid;
+const ownerid = 696852868774363136;
 
 module.exports = {
     name: "serverlist",

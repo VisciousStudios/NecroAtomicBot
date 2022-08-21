@@ -1,7 +1,7 @@
 let { PythonShell } = require("python-shell");
 const {MessageEmbed} = require('discord.js')
 require("dotenv").config();
-const owner = process.env.ownerid
+const owner = 696852868774363136
 
 module.exports = {
   name: "pyeval",

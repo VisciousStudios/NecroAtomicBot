@@ -1,6 +1,6 @@
 const {Client, Message, MessageEmbed} = require('discord.js');
 require("dotenv").config();
-const ownerID = process.env.ownerid; 
+const ownerID = 696852868774363136; 
 const schema = require('../../schemas/blacklist-server')
 
 module.exports = {

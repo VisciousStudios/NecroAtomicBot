@@ -58,7 +58,6 @@ const globPromise = promisify(glob);
 const welcomeMessage = require('./schemas/welcomeMessage')
 const { VoiceClient } = require("djs-voice");
 const afkschema = require("./schemas/afk");
-const chalkAnimation = require('chalk-animation')
 const { DiscordTogether } = require('discord-together');
 
 client.discordTogether = new DiscordTogether(client);

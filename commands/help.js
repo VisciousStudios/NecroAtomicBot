@@ -5,7 +5,7 @@ const schema = require("../schemas/Guild");
 const token = process.env.token;
 let prefix = process.env.prefix;
 const reactionMenu = require("discordv13-pagination")
-const image = `https://cdn.discordapp.com/attachments/867151384703795241/867465639262027776/bot_long_banner.png`
+const image = `https://i.waifu.pics/XvKVlZN.gif`
 
 
 
@@ -190,7 +190,7 @@ module.exports = {
                     )
                     .setTimestamp()
                     .setColor("#2F3136")
-                return message.channel.send({embeds:[embed]});
+                    interaction.update({embeds:[embed]});
             }
         }
     },

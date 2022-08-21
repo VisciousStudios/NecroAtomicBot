@@ -1,4 +1,10 @@
-const Discord = require('discord.js');
+const {
+    Client,
+    CommandInteraction,
+    MessageEmbed,
+    MessageActionRow,
+    MessageButton,
+  } = require("discord.js");
 require('dotenv').config()
 const token = process.env.token
 const axios = require('axios')

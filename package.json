@@ -48,7 +48,7 @@
 
     "captcha-canvas": "^3.1.0",
 
-    "chalk-animation": "^1.6.0",
+    "chalk-animation": "^2.0.2",
 
     "chartjs-node-canvas": "^4.1.6",
 
@@ -148,7 +148,7 @@
 
     "imdb-api": "^4.4.1",
 
-    "jimp": "^0.16.1",
+    "jimp": "^0.16.0",
 
     "jszip": "^3.10.0",
 
@@ -192,9 +192,9 @@
 
     "node-superfetch": "^0.1.11",
 
-    "npm-check": "^6.0.1",
+    "npm-check": "^3.2.10",
 
-    "nsfwjs": "^2.4.1",
+    "nsfwjs": "^2.2.0",
 
     "nuggies": "^3.1.3",
 

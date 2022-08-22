@@ -13,6 +13,10 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, interaction, args) => {
+
+        const embed = new MessageEmbed()
+        .setURL(github)
+      .setDescription('Please be kind')
         const button = new MessageActionRow().addComponents(
             new MessageButton()
             .setStyle("LINK")
@@ -20,6 +24,6 @@ module.exports = {
             .setLabel("Recommended Server")
         )
         
-        interaction.followUp({ content: `RTA sus@!`, components: [button] });
+        interaction.followUp({ embeds: [embed], components: [button] });
     }
 }

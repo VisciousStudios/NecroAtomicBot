@@ -1,5 +1,6 @@
 const {CommandInteraction, Client, MessageEmbed, MessageActionRow, MessageSelectMenu} = require('discord.js')
 const fs = require('fs')
+const github = `https://github.com/VisciousStudios`
 const image = `https://cdn.discordapp.com/attachments/867151384703795241/867465639262027776/bot_long_banner.png`
 const emojis = require('../../emojis.json')
 module.exports = {

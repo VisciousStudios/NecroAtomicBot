@@ -66,6 +66,7 @@ client.discordTogether = new DiscordTogether(client);
 
 
 
+
 client.snipes = new Discord.Collection();
 const Canvas = require("canvas");
 

@@ -1,4 +1,4 @@
-const { CommandInteraction, MessageActionRow, MessageButton, Client } = require('discord.js')
+const { CommandInteraction, MessageActionRow, MessageEmbed, MessageButton, Client } = require('discord.js')
 
 module.exports = {
     name: 'rta',

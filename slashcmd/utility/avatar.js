@@ -23,7 +23,7 @@ module.exports = {
         const Target = interaction.options.getUser('target')
 
         const res = new MessageEmbed()
-            .setAuthor(`${Target.tag} Avatar`, Target.displayAvatarURL({dynamic:true}))
+            .setAuthor(`${Target.tag} Avatar!`, Target.displayAvatarURL({dynamic:true}))
             .setImage(Target.displayAvatarURL({dynamic:true, size:4096}))
             .setColor("RANDOM")
             .setTimestamp()
